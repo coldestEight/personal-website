@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.projectContainer{
+
+    display: flex;
+    background: rgba(0,0,0,0.5);
+    margin-left:10vw;
+    border-radius: 2cqi;
+    width: 80vw ;
+    height: min;
+    margin-top: 5vh;
+    text-wrap: wrap;
+}
+
+.projectContainer img{
+    border-radius: 2cqi;
+    width: min(20vw, 250px);
+    object-fit: cover;
+}
+
+.textContainer{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+}
+.projectTitle{
+    display:flex;
+    align-self:flex-start;
+    font-family: "Lato", sans-serif;
+    margin-top: 1vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    font-size: min(3vw,30px);
+    color: rgb(255, 255, 255);
+}
+
+.projectText{
+    display: flex;
+    font-family: "Lato", sans-serif;
+    margin-top: 1vh;
+    margin-left: 2.5vw;
+    margin-right: 1.5vw;
+    font-size: min(2.5vw,20px);
+    color: rgb(255, 255, 255);
+}
+
+.projectLinks{
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: min(2.5vw,20px);
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+    text-align: right;
+    margin-right: 2vw;
+}

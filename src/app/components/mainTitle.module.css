@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    z-index: 1;
+}
+
+.mainTitle{
+    font-size: min(90px,7cqi);
+    display: block;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.mainSubtitle{
+    font-size: min(26px,2cqi);
+    display: block;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    font-weight:400;
+    
+}
