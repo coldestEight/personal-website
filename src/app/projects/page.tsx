@@ -12,7 +12,8 @@ export default function Home() {
       {projectItem(
         "react.png",
         "Personal Website",
-        "The one you're on right now! Hosted on my local server, routed through Cloudflare Zero Trust.\n\nBuilt Using:\n- React\n- CSS\n- JavaScript"
+        "The one you're on right now! Hosted on my local server, routed through Cloudflare Zero Trust.\n\nBuilt Using:\n- React\n- CSS\n- TypeScript",
+        "https://github.com/coldestEight/personal-website"
       )}
       {projectItem(
         "calendarGPT.png",

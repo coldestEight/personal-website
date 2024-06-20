@@ -1,10 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./projectItem.module.css";
+
 export default function projectItem(
   img = "test.png",
-  title = "Test Title",
-  text = "test text",
+  title = "The Less I Know",
+  text = "The Better",
   link = "https://github.com/coldestEight"
 ) {
   let formattedText = addLineBreak(text);
