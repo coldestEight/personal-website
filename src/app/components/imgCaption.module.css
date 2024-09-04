@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-.bodyText{
+.imgCaption{
 
     background-color: rgba(0, 0, 0, 0.274);
     text-align: center;
@@ -8,7 +8,17 @@
     margin-right: 15vw;
     margin-bottom: 5vw;
     padding: min(3vw,30px);
-    font-size: min(2.5vw,23px);
+    font-size: min(2vw,20px);
     font-family: Lato, "sans-serif";
     border-radius: 4vw;
+    align-content: center;
+    font-style: italic;
+}
+
+.imgCaption img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 2%;
 }

@@ -18,6 +18,10 @@ function contact() {
   window.location.href = "../contact";
 }
 
+function coop() {
+  window.location.href = "../co-op";
+}
+
 export default function navbar() {
   return (
     <>
@@ -25,6 +29,7 @@ export default function navbar() {
         <button onClick={() => home()}>Home</button>
         <button onClick={() => aboutMe()}>About Me</button>
         <button onClick={() => projects()}>Projects</button>
+        <button onClick={() => coop()}>Co-op</button>
         <button onClick={() => contact()}>Contact</button>
       </div>
     </>
