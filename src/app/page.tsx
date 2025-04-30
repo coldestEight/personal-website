@@ -11,7 +11,7 @@ export default function Home() {
       {navbar()}
       {mainTitle(
         "Shaheer Khan",
-        "Aspiring Software Engineer | Student at the University of Guelph"
+        "Software Engineer | Student at the University of Guelph"
       )}
     </>
   );
