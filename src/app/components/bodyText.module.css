@@ -4,11 +4,11 @@
     background-color: rgba(0, 0, 0, 0.274);
     text-align: center;
     color: white;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
     padding: min(3vw,30px);
     font-size: min(2.5vw,23px);
     font-family: Lato, "sans-serif";
-    border-radius: 4vw;
+    border-radius: 2vw;
 }

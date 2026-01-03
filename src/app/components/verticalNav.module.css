@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.verticalNav {
+    width: 15%;
+    height: auto;
+    background: none;
+    background-color: #11111151;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+
+    position: sticky;
+    top: 0;
+  }
+  
+  .navBtn {
+    background: none;
+    border: none;
+    color: #e5e7eb;
+    padding: 12px;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size:min(20px, 2cqi);
+    font-family: "Lato", "Sans-serif";
+  }
+  
+  .navBtn:hover {
+    transition: 0.25s;
+    background-color: #281f33;
+  }
+  
+  .navBtn:active {
+    background-color: #2d2834;
+  }
+  

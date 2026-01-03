@@ -14,7 +14,7 @@ export default function Navbar() {
       <button onClick={() => handleNavigation("/")}>Home</button>
       <button onClick={() => handleNavigation("/about_me")}>About Me</button>
       <button onClick={() => handleNavigation("/projects")}>Projects</button>
-      <button onClick={() => handleNavigation("/contact")}>Contact</button>
+      <button onClick={() => handleNavigation("/co-op")}>Co-op</button>
       <button onClick={() => handleNavigation("/Shaheer_Khan_Resume.pdf")}>
         Resume
       </button>
