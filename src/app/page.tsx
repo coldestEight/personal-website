@@ -3,6 +3,7 @@ import React from "react";
 import navbar from "./components/navbar";
 import mainTitle from "./components/mainTitle";
 import particlesBackground from "./components/particleBackground";
+import contacts from "./components/contacts";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         "Shaheer Khan",
         "Software Engineer | Student at the University of Guelph"
       )}
+      {contacts()}
     </>
   );
 }
