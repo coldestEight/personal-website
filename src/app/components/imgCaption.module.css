@@ -1,24 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-.imgCaption{
 
+.imgCaption {
     background-color: rgba(0, 0, 0, 0.274);
     text-align: center;
     color: white;
     margin-left: 15vw;
     margin-right: 15vw;
-    margin-bottom: 5vw;
-    padding: min(3vw,30px);
-    font-size: min(2vw,20px);
-    font-family: Lato, "sans-serif";
+    margin-bottom: 2vw;
+    padding: min(3vw, 30px);
+    font-size: min(2vw, 20px);
+    font-family: Lato, sans-serif;
     border-radius: 2vw;
-    align-content: center;
     font-style: italic;
 }
 
-.imgCaption img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  margin-bottom: 2%;
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: min(2vw, 20px);
+    margin-bottom: min(2vw, 20px);
+    align-items: center;
+}
+
+.imageGrid img {
+    width: 100%;
+    height: auto;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.imageGrid:has(img:only-child) img {
+    max-width: min(25vw, 80%);
+    margin: auto;
+}
+
+
+.caption {
+    margin-top: min(1.5vw, 15px);
 }
