@@ -2,11 +2,11 @@
 
 .projectContainer{
 
-    display: flex;
+    display:inline-flex;
     background: rgba(0,0,0,0.5);
-    margin-left:10vw;
+    margin-left:15%;
     border-radius: 2cqi;
-    width: 80vw ;
+    width: 70% ;
     height: min;
     margin-top: 5vh;
     text-wrap: wrap;
