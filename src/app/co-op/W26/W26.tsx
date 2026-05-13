@@ -25,7 +25,7 @@ export default function W26() {
         caption="Tons of informative events too!"
       />
       {bodyText(
-        "In addition to design work, I became more involved in active project support and testing. I took charge of QA testing on two ongoing projects, which involved validating system functionality, identifying issues, and coordinating with developers and team members to ensure changes behaved as expected before deployment. This gave me a stronger appreciation for the importance of testing and quality assurance within large systems, especially in environments where reliability and accuracy are critical. I also worked on creating dashboards to help organize and present information more effectively for internal use. This involved thinking not only about technical implementation, but also about how users interact with and interpret information.",
+        "In addition to design work, I became more involved in active project support and testing. I took charge of QA testing on two ongoing projects, which involved validating system functionality, identifying issues, and coordinating with developers and team members to ensure changes behaved as expected before deployment. This gave me a stronger appreciation for the importance of testing and quality assurance within large systems, especially in environments where reliability and accuracy are critical. I also worked on creating dashboards to help organize and present information more effectively for internal use.",
       )}
       <ImgCaption
         imgsrc={["../W26_4.jpg"]}
